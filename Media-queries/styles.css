@@ -1,0 +1,32 @@
+@media (max-width: 387px) {
+
+    .header-logo {
+        font-size: 20px;
+    }
+
+    #header .header-nav {
+        margin-left: 16px;
+    }
+
+    #header .header-nav .list {
+        font-size: 12px;
+        gap: 20px;
+    }
+
+}
+
+
+@media (min-width:387px) and (max-width:612px) {
+    #header .header-nav .list {
+        font-size: 12px;
+        gap: 20px;
+    }
+
+    #header .header-nav {
+        margin-left: 8%;
+    }
+
+    .header-logo {
+        font-size: 20px;
+    }
+}
